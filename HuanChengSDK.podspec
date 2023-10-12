@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HuanChengSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.3"
   spec.summary      = "A universal SDK for HuanCheng Company"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Phoenix-Cjd/HuanChengSDK.git", :tag => '1.0.2'  }
+  spec.source       = { :git => "https://github.com/Phoenix-Cjd/HuanChengSDK.git", :tag => '1.0.3'  }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "HuanChengSDK/*"
+  spec.source_files  = "HuanChengSDKFiles/*"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
